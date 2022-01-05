@@ -1,5 +1,7 @@
+import React, { useState } from "react";
 
 const Home = () => {
+  const [theam, setTheam] = useState("");
   return (
     <div className="home">
       <h1>Cookies and Beyond</h1>
@@ -8,6 +10,7 @@ const Home = () => {
         alt="cookie shop"
         src="https://i.pinimg.com/originals/8f/cf/71/8fcf719bce331fe39d7e31ebf07349f3.jpg"
       />
+      <button onClick={() => setTheam}>change Theam</button>
     </div>
   );
 };
