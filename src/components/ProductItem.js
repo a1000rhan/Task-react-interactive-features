@@ -7,6 +7,7 @@ const ProductItem = ({ product, setCookie }) => {
         alt={product.name}
         src={product.image}
         onClick={() => setCookie(product)}
+        className="cookies-img"
       />
       <p>{product.name}</p>
       <p className="product-price">{product.price} KD</p>

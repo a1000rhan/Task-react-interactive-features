@@ -10,7 +10,19 @@ const Home = () => {
         alt="cookie shop"
         src="https://i.pinimg.com/originals/8f/cf/71/8fcf719bce331fe39d7e31ebf07349f3.jpg"
       />
-      <button onClick={() => setTheam}>change Theam</button>
+      <button className="btn-theam" onClick={() => setTheam}>
+        change Theam
+      </button>
+      <img
+        className="animate-img"
+        alt=""
+        src="https://www.pngall.com/wp-content/uploads/2016/07/Cookie-Download-PNG.png"
+      />
+      <img
+        className="animate2-img"
+        alt=""
+        src="https://www.pngall.com/wp-content/uploads/2016/07/Cookie-Download-PNG.png"
+      />
     </div>
   );
 };
