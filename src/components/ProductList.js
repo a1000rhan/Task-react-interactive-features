@@ -4,15 +4,9 @@ import ProductItem from "./ProductItem";
 import SearchBar from "./SearchBar";
 // Data
 import products from "../products";
-import ProductDetail from "./ProductDetail";
 
 const ProductList = ({ setCookie }) => {
   const [quary, setQuary] = useState("");
-  //
-  const ChangeCookie = (cookie) => {
-    console.log(cookie);
-  };
-  //
 
   const productList = products
     .filter((product) =>

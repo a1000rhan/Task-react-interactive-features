@@ -1,4 +1,4 @@
-import products from "../products";
+import React from "react";
 
 const ProductItem = ({ product, setCookie }) => {
   return (

@@ -1,11 +1,10 @@
 import React from "react";
-import products from "../products";
 
 function ProductDetail({ cookie }) {
   return (
     <div className="selected">
       <h1>{cookie.name}</h1>
-      <img className="myimg" src={cookie.image} />
+      <img className="myimg" src={cookie.image} alt="" />
       <p>{cookie.discription}</p>
       <p>{cookie.price}</p>
     </div>
